@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+
+
+body {
+  background: #eeeeee;
+  font-family: 'Signika', sans-serif;
+}
+
+#root {
+  width: 900px;
+  margin: auto;
+  /* background: white; */
+}
+
+.page {
+  margin: 30px 0px;
+  width: 900px;
+  height: 1330px;
+  background: white;
+}
+
+#page1 {
+  margin: 30px 0px;
+  width: 900px;
+  height: 1330px;
+  background: white;
+}
+
+.text-primary {
+  color: #0875F7;
+}
+
+.text-primary-dark {
+  color: #096CE3;
+}
+
+.text-gray-lead {
+  color: #8A8A8A;
+}
+
+.text-gray-label {
+  color: #656565;
+}
+
+.text-gray-value {
+  color: #535353;
+}
+
+.text-figma-orange {
+  color: #FF7426
+}
+
+.text-figma-red {
+  color: #F00
+}
+
+.text-figma-green {
+  color: #21B573
+}
+
+.bg-figma-red {
+  background-color: #E51B1B
+}
+
+.border-primary {
+  border: 1px solid #0875F7;
+}
+
+.grid-t-3-2 {
+  grid-template-columns: 3fr 2fr;
+}
+
+.grid-t-4-2 {
+  grid-template-columns: 4fr 2fr;
+
+}
+
+.logo {
+  width: 126.108px;
+  height: 71.677px;
+}
+
+#row1_col2 .box {
+  border-radius: 10.778px;
+  background: #FFF;
+  padding: 0.75rem;
+  min-width: 4.8rem;
+  box-shadow: 0px 0px 9.162px 0px #0875F7 inset;
+}
+
+#row1_col2 .box.red {
+  box-shadow: 0px 0px 9.162px 0px #F00 inset;
+}
+
+#row2_col2 .box {
+  padding: 0.8rem 2rem;
+  border-radius: 5.389px;
+  background: #F4FBFF;
+  box-shadow: 0px 0px 10.778px 2.695px rgba(140, 198, 240, 0.57) inset, 2.156px 2.156px 10.778px 0px rgba(144, 144, 144, 0.50);
+}
+
+#row3_col1 {
+  border-radius: 5.389px;
+  border: 0.539px solid #000;
+  background: #FAFAFA;
+  height: 110.479px;
+}
+
+#row3_col2 {
+  border-radius: 5.389px;
+  background: #EBEBEB;
+  height: 110.479px;
+}
+
+#row4_col1 {
+  height: 215px;
+  border-radius: 5.389px;
+  background: #FFF2F2;
+  box-shadow: 0px 0px 18.323px 0px rgba(255, 0, 0, 0.25) inset;
+}
+
+#row4_col2 {
+  height: 215px;
+  border-radius: 5.389px;
+  background: #F4FBFF;
+  box-shadow: 0px 0px 18.323px 0px rgba(66, 136, 186, 0.57) inset;
+}
+
+#row4_col3 {
+  height: 215px;
+  fill: #F3FFF0;
+  box-shadow: 0px 0px 18.323px 0px rgba(33, 181, 115, 0.79) inset;
+}
+
+#row5_col1 {
+  border-radius: 5.389px;
+  border-top: 3.772px solid #0875F7;
+  background: #FFF;
+  box-shadow: 0px 0px 5.389px 2.695px #E6E6E6 inset;
+}
+
+#row5_col2 {
+  border-radius: 5.389px;
+  border-top: 3.772px solid #0875F7;
+  background: #FFF;
+  box-shadow: 0px 0px 5.389px 2.695px #E6E6E6 inset;
+}
+
+.pill {
+  border-radius: 10.778px;
+  background: #05FF00;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  color: black;
+  font-weight: 500;
+}
+
+.pill-2 {
+  background: #75E172;
+}
+
+.pill-3 {
+  background: #DED965;
+}
+
+.pill-4 {
+  background: #E86E6E;
+}
+
+.pill-5 {
+  background: #F00;
+  color: white;
+}
+
+.head_box {
+  width: 100%;
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #4a5568;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-width: 1px;
+  border-color: #096CE3;
+  border-radius: 0.75rem;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.car_image_dim {
+  width: 340px;
+  height: 205px;
+}
+
+.car_item_title {
+  color: #0875F7;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.car_card_footer_box {
+  width: 340px;
+  min-height: 240px;
+  padding-bottom: 0.5rem;
+  border-radius: 0px 0px 8.084px 8.084px;
+  background: #FFF;
+  box-shadow: 0px 0px 5.389px 0px #ACACAC;
+}
+
+.item_title {
+  color: #39393B;
+  font-family: Signika;
+  font-size: 16.168px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.lengty_img_dim {
+  width: 345.449px;
+  height: 168.144px;
+  border-radius: 10.778px;
+}
