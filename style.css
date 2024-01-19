@@ -51,6 +51,10 @@ body {
   color: #FF7426
 }
 
+.text-figma-yellow {
+  color: #C4902C
+}
+
 .text-figma-red {
   color: #F00
 }
@@ -186,11 +190,11 @@ body {
   align-items: center;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
-  border-width: 1px;
-  border-color: #096CE3;
-  border-radius: 0.75rem;
+
+  border-radius: 5.389px;
   line-height: normal;
   margin-bottom: 0.5rem;
+  border: 0.539px solid #096CE3;
 }
 
 .car_image_dim {
@@ -227,4 +231,65 @@ body {
   width: 345.449px;
   height: 168.144px;
   border-radius: 10.778px;
+}
+
+.tyres_imgs {
+  width: 230.12px;
+  height: 171.916px;
+  border-radius: 8.084px;
+}
+
+.last_imags {
+  width: 371.317px;
+  height: 275.389px;
+  border-radius: 10.778px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.box_g {
+  background: #FFF;
+  box-shadow: 0px 2.156px 9.701px 0px rgba(0, 0, 0, 0.25);
+  min-height: 90px;
+  position: relative;
+  z-index: 2;
+}
+
+.box_g_i {
+  border: 0.539px solid #0867D7;
+  z-index: 2;
+  width: 100%;
+  background: #FFF;
+  box-shadow: 0px 2.156px 9.701px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10.778px;
+
+}
+
+.box_g::after {
+  content: " ";
+  background: linear-gradient(268deg, #0875F7 48.49%, #05FF00 81.14%);
+  height: 50%;
+  width: 101%;
+  position: absolute;
+  inset: auto -6px -8px;
+  z-index: 0;
+  border-radius: 10.778px;
+}
+
+.box_g_m {
+  border-radius: 8.084px;
+  background: linear-gradient(93deg, #FF7426 0%, #FAAF3A 66.42%);
+  width: 162.216px;
+  height: 25.329px;
+
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+
+  position: absolute;
+  margin: 0 auto;
+  inset: -10px 0 auto 0;
+  z-index: 10;
 }
